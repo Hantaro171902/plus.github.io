@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLUS-Pet Lovers Unique Social</title>
+    <!-- Insert fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=SF+Pro+Rounded:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Constructio+Grotesk:wght@400&display=swap"
+    />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- icon -->
+    <link rel="icon" href="../IMG/plus-logo.png" type="image/x-icon">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/fonts.css" />
+    <!-- js -->
+    <script src="../JS/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Navbar -->
+      <nav class="header">
+        <ul class="plus-navbar-sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><i class="fa-solid fa-xmark"></i></a>
+          </li>
+          <li><a href="../HTML/index.html">TRANG CHỦ</a></li>
+          <li><a href="#about-us">VỀ CHÚNG TÔI</a></li>
+          <li><a href="#community">CỘNG ĐỒNG</a></li>
+          <li><a href="#contact">LIÊN HỆ</a></li>
+					<li><a href="#">TẢI NGAY</a></li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="../html/index.html">
+              <img class="logo-plus-text" src="../assets/logo-PLUS.svg"
+            /></a>
+          </li>
+          <li class="hideonMobile"><a id="nav-text" href="../HTML/index.html">TRANG CHỦ</a></li>
+          <li class="hideonMobile"><a id="nav-text" href="#about-us">VỀ CHÚNG TÔI</a></li>
+          <li class="hideonMobile"><a id="nav-text" href="#community">CỘNG ĐỒNG</a></li>
+          <li class="hideonMobile"><a id="nav-text" href="#contact">LIÊN HỆ</a></li>
+          <li class="hideonMobile">    
+              <button class="btn-download-now">TẢI NGAY</button>
+          </li> 
+
+          <li class="btn-menu" onclick="showSidebar()">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Home Banner -->
+      <div class="banner">
+				<img src="../IMG/banner-plus.png" class="plus-banner img-fluid" alt="plus-banner">
+			</div>
+
+      <!--Text Flow-->
+      <div class="plus-text-flow">
+        <section class="spacer"></section>
+
+        <section class="marquee">
+          <div class="marquee__inner">
+            <div class="marquee__part">
+              KẾT NỐI CỘNG ĐỒNG
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              CẬP NHẬT SỰ KIỆN
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              HỎI NHANH ĐÁP CHUẨN
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              KẾT NỐI CỘNG ĐỒNG
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              CẬP NHẬT SỰ KIỆN
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              HỎI NHANH ĐÁP CHUẨN
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+              <div class="marquee__part">
+              KẾT NỐI CỘNG ĐỒNG
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              CẬP NHẬT SỰ KIỆN
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+            <div class="marquee__part">
+              HỎI NHANH ĐÁP CHUẨN
+              <div class="paw">
+                <img src="../assets/icon-paw-down.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+			<!-- ABOUT US -->
+      <section id="about-us" class="plus-aboutus">
+				<img class="img-fluid" src="../IMG/img-dogcat.png" alt="" id="image-dogcat"/>
+        
+				<div class="aboutus-content">
+					<h1>VỀ CHÚNG TÔI</h1>
+					<p>
+					<b>PLUS </b>
+            là ứng dụng mạng xã hội dành riêng cho những người yêu thú cưng.
+            Chúng tôi cung cấp một sân chơi năng động và trẻ trung, nơi bạn có
+            thể cập nhật các khoảnh khắc của thú cưng, tham gia bảng xếp hạng
+            thú cưng, kết nối với những người có cùng niềm yêu thích và tìm kiếm
+            câu trả lời cho mọi thắc mắc qua chuyên mục hỏi đáp sôi nổi.
+					</p>
+					<br>
+					<p>
+						Hãy gia nhập <b>PLUS</b>
+						, nơi mọi trải nghiệm đều trở nên đặc biệt hơn bởi tình yêu thú
+						cưng của chúng ta được chia sẻ và lan tỏa!
+					</p>
+					<a href="#">
+						<button class="btn-follow4more">FOLLOW FOR MORE</button>
+					</a>				
+				</div>
+      </section>
+
+			<!-- CARD -->
+			<div class="plus-card row">
+				<div id="card-1" class="flip-card col-3" onmouseover="flipCard('card-1')">
+					<div class="thefont">
+						<img src="../IMG/fontcard-01.png" alt="fontcard">
+					</div>
+					<div class="theback">
+						<img src="../IMG/backcard-01.png" alt="backcard">
+					</div>
+				</div>
+				<div id="card-2" class="flip-card col-3" onmouseover="flipCard('card-2')">
+					<div class="thefont">
+						<img src="../IMG/fontcard-02.png" alt="fontcard">
+					</div>
+					<div class="theback">
+						<img src="../IMG/backcard-02.png" alt="backcard">
+					</div>
+				</div>
+				<div id="card-3" class="flip-card col-3" onmouseover="flipCard('card-3')">
+					<div class="thefont">
+						<img src="../IMG/fontcard-03.png" alt="fontcard">
+					</div>
+					<div class="theback">
+						<img src="../IMG/backcard-03.png" alt="backcard">
+					</div>
+				</div>
+				<div id="card-4" class="flip-card col-3" onmouseover="flipCard('card-4')">
+					<div class="thefont">
+						<img src="../IMG/fontcard-04.png" alt="fontcard">
+					</div>
+					<div class="theback">
+						<img src="../IMG/backcard-04.png" alt="backcard">
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Numbers infor -->
+			<section id="community">
+				<div class="plus-number" onmousemove="rollNum()">
+					<div class="row">
+						<div class="number-1 col-md-6">
+							<span style="display: flex;"><h1 class="num" data-val="1100000">1.100.000 </h1><h1> + </h1></span>
+							<p>Người sử dụng</p>
+							<br><br>
+							<span style="display: flex;"><h1 class="num" data-val="5400">5400 </h1><h1> + </h1></span>
+							<p>Sự kiện được tổ chức</p>
+						</div>
+						<div class="number-2 col-md-6">
+							<span style="display: flex;"><h1 class="num" data-val="1030">1030 </h1><h1> + </h1></span>
+							<p>Câu hỏi được giải đáp</p>
+							<br><br>
+							<span style="display: flex;"><h1 class="num" data-val="10200">10200 </h1><h1> + </h1></span>
+							<p>Bài đăng mỗi ngày</p>
+						</div>
+					</div> 
+				</div>
+			</section>
+
+			<!-- Paws -->
+			<div class="plus-paw-going">
+        <img src="../IMG/paw-going.png" alt="">
+			</div>
+
+			<!-- Floating photos -->
+			<div class="plus-photo">
+				<img class="img-0" src="../assets/hashtag-plus.svg" alt="">
+				<img class="img-1" src="../IMG/Frame 1752.png" alt="">
+				<img class="img-2" src="../IMG/Frame 1753.png" alt="">
+				<img class="img-3" src="../IMG/Frame 1754.png" alt="">
+				<img class="img-4" src="../IMG/Frame 1755.png" alt="">
+				<img class="img-5" src="../IMG/Frame 1756.png" alt="">
+				<img class="img-6" src="../IMG/Frame 1757.png" alt="">
+				<img class="img-7" src="../IMG/Frame 1758.png" alt="">
+				<img class="img-8" src="../IMG/Frame 1759.png" alt="">
+				<img class="img-9" src="../IMG/Frame 1760.png" alt="">
+				<img class="img-10" src="../IMG/Frame 1761.png" alt="">
+			</div>
+
+			<!-- Video -->
+			<div class="plus-clip">
+        <iframe style="border-radius:30px; width: 100%; min-height:100vh;" src="https://www.youtube.com/embed/dXBAH7414A8?si=_NLFSBJqrOrAM-ju" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+
+
+			<div id="contact" class="plus-community">
+				<h1>THAM GIA</h1>
+				<h1 style="color: #5066DD">CỘNG ĐỒNG NGAY</h1>
+				<img src="../IMG/iMockup - iPhone 13.png" alt="">
+				<img src="../IMG/iMockup - iPhone 14.png" alt="">
+				<img src="../IMG/iMockup - iPhone 13-1.png" alt="">
+				<div class="btn-download">
+          <a href="../video/Prototype.mp4">
+            <button>TẢI NGAY</button>
+          </a>
+          
+        </div>
+			</div>
+  </body>
+  <footer>
+    <div class="plus-footer">
+      <div style="padding: 0 0 10vh 0; display: flex;" class="row">
+        <div class="col">
+          <img src="../IMG/plus-logo.png" alt="">
+          <img src="../assets/logo-PLUS.svg" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-info col-3">
+          <h6>Thông tin</h6
+          ><p>(+84) 02923 123 456</p
+          ><p>contact.plus@gmail.com</p
+          ><p>55 CMT8, An Hòa, Ninh Kiều, Cần Thơ</p>
+        </div>
+        <div class="footer-link col-2">
+          <h6>Đường dẫn</h6
+          ><p>Về chúng tôi</p
+          ><p>Cộng đồng</p
+          ><p>Liên hệ</p>
+        </div>
+        <div class="footer-law col-4">
+          <h6>Chính sách</h6
+          ><p>Điều khoản sử dụng</p
+          ><p>Chính sách bảo mật</p
+          ><p>Nguyên tắc cộng đồng</p
+          ><p>Chính sách hỗ trợ</p>
+        </div>
+        <div class="footer-store col-3">
+          <h6>Tải ứng dụng</h6>
+          <div class="row">
+            <div class="col"><img src="../IMG/qr-code.png" alt=""></div>
+            <div style="margin: 2vh 0 0 0;" class="col">
+              <img src="../IMG/ggplay.png" alt="">
+              <img src="../IMG/appstore.png" alt="">
+            </div>  
+          </div>
+          
+        </div>
+      </div>
+      <div class="plus-2024">@2024 PLUS</div>
+      <img class="cat" src="../IMG/img-cat.png" alt="">
+    </div>
+  </footer>
+</html>

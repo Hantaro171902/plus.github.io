@@ -1,0 +1,24 @@
+/* SF PRO ROUNDED */
+/* Bold */
+@font-face {
+    font-family: 'SF-Pro-Rounded';
+    src: url(../fonts/SF-Pro-Rounded/SFProRounded-Black.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Regurlar */
+@font-face {
+    font-family: 'SF-Pro-Rounded';
+    src: url(../fonts/SF-Pro-Rounded/SFProRounded-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* CONSTRUCTIO GOTEK */
+@font-face {
+    font-family: 'Constructio-gotek';
+    src: url(../fonts/Constructio-gotek/DFVN\ CONSTRUCTIO\ GROTESK.OTF);
+    font-weight: normal;
+    font-style: normal;
+}
